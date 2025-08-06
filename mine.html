@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>YouTube Service Banner</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .banner {
+      width: 600px;
+      max-width: 90%;
+      padding: 40px;
+      background: linear-gradient(135deg, #ff005c, #ff8a00);
+      color: #fff;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    .banner h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
+      gap: 15px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .services li {
+      background: rgba(255,255,255,0.2);
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .services li::before {
+      content: '✅';
+      margin-right: 8px;
+    }
+    .contact {
+      margin-top: 25px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <h1>🎬 YouTube Services</h1>
+    <ul class="services">
+      <li>YouTube intro</li>
+      <li>YouTube outro</li>
+      <li>YouTube banner</li>
+      <li>Channel art</li>
+      <li>Social media kit</li>
+      <li>Logo animation</li>
+      <li>Sound effects</li>
+      <li>Lower thirds</li>
+      <li>Subscribe animation</li>
+      <li>Like animation</li>
+      <li>Bell animation</li>
+      <li>Fast delivery</li>
+      <li>Custom design</li>
+      <li>High quality</li>
+      <li>Affordable price</li>
+    </ul>
+    <div class="contact">
+      💬 Contact me before placing an order!<br>
+      📩 DM for more info.
+    </div>
+  </div>
+</body>
+</html>
