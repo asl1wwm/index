@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Videos Section</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    .videos-section {
+      background: #00a54f; /* yashil fon */
+      padding: 50px 20px;
+      border: 10px solid #f2b800; /* tashqi sariq border */
+      position: relative;
+    }
+    .videos-section h1 {
+      color: white;
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+    .video-container {
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .video-container img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+    }
+    .video-info {
+      color: white;
+      text-align: right;
+      margin-top: 20px;
+    }
+    .video-info h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    .video-info button {
+      background: #d80000;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .dots {
+      text-align: center;
+      margin-top: 15px;
+    }
+    .dots span {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #004d00;
+      border-radius: 50%;
+      margin: 0 5px;
+    }
+    .dots span.active {
+      background: red;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="videos-section">
+    <h1>Videos</h1>
+    <div class="video-container">
+      <img src="https://via.placeholder.com/800x400" alt="Video Thumbnail">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/YouTube_social_white_red.png" class="play-button" alt="Play Button">
+    </div>
+    <div class="dots">
+      <span class="active"></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="video-info">
+      <h2>FIFA World Cup 2026™ Countdown</h2>
+      <button>View More</button>
+    </div>
+  </div>
+
+</body>
+</html>
